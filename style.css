@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+nav {
+    background-color: #F55A5A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+nav h3 {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+.card,
+.card-top {
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    max-width: 550px;
+    margin: 35px auto;
+}
+
+.card-image {
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+}
+
+.card-text {
+    margin-left: 20px;
+}
+
+.card-location,
+.card-map,
+.card-dates,
+.card-description {
+    font-size: 10px;
+}
+
+.card-location,
+.card-map {
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card-location,
+.card-title,
+.card-dates,
+.card-description {
+    color: #2B283A;
+}
+
+.card-location {
+    letter-spacing: 1.75px;
+    margin-right: 12px;
+    margin-left: 4px;
+}
+
+.card-map {
+    color: #918E9B;
+}
+
+.card-title {
+    margin: 0;
+    font-size: 25px;
+}
+
+.card-description {
+    line-height: 15px;
+}
